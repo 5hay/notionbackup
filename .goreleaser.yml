@@ -1,0 +1,28 @@
+builds:
+  -
+    flags:
+      - -trimpath
+    ldflags:
+     - -s -w -X main.Version={{.Version}}
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+      - freebsd
+      - windows
+    goarch:
+      - amd64
+      - arm
+      - arm64
+    goarm:
+      - 6
+      - 7
+    mod_timestamp: '{{ .CommitTimestamp }}'
+
+archives:
+  -
+    wrap_in_directory: true
+    format_overrides:
+      - goos: windows
+        format: zip
