@@ -6,6 +6,8 @@ I needed something scriptable that could periodically download my whole Notion w
 
 ## How To Use
 
+Build it yourself or download a pre-built binary from the [Releases page](https://github.com/5hay/notionbackup/releases).
+
 Set the following env variables
 
 - `NOTION_TOKEN` (the token_v2 cookie value, just google "notion token_v2")
