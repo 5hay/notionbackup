@@ -4,7 +4,7 @@ A small utility command line application that can recursively download Notion pa
 
 I needed something scriptable that could periodically download my whole Notion workspace for backup purposes.
 
-I have written a small blog post about this tool if you want to check it out: [Automate your Notion backups](https://blog.shayan.sx/automate-your-notion-backups.html)
+I have written a small blog post about this tool if you want to check it out: [Automate your Notion backups](https://blog.shayan.eu/automate-your-notion-backups.html)
 
 ## How To Use
 
